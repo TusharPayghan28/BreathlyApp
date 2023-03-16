@@ -1,0 +1,66 @@
+<app-header></app-header>  
+<div class="container">
+    <!-- <h1 class="text-center" id="h1">GALLERY</h1> -->
+
+    <div class="heading">
+        <h1 class="text-white">GALLERY</h1>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-3" *ngFor="let data of img" id="col3">
+            <mat-card class="example-card">
+               
+                <img mat-card-image src="{{data.ipath}}" alt="Photo of a Shiba Inu" height="250">
+                
+                <div class="middle">
+                    <button mat-button (click)="openMusic(data)">{{data.name}}</button>
+                  </div>
+              </mat-card>
+              
+        </div>
+    </div>
+
+<br><br>
+    <div class="heading">
+        <h1 class="text-white text-uppercase">Melodies GALLERY</h1>
+    </div>
+<br>
+    <div class="row">
+        <div class="col-md-3" *ngFor="let data of melodies" id="col3">
+            <mat-card class="example-card">
+               
+                <img mat-card-image src="{{data.ipath}}" alt="Photo of a Shiba Inu" height="250">
+                
+                <div class="middle">
+                    <button mat-button (click)="melodiesMusic(data)">{{data.name}}</button>
+                  </div>
+              </mat-card>
+              
+        </div>
+    </div>
+
+    
+<br><br>
+<div class="heading">
+    <h1 class="text-white text-uppercase">Melodies GALLERY</h1>
+</div>
+<br>
+<div class="row">
+    <div class="col-md-3" *ngFor="let data of sleep" id="col3">
+        <mat-card class="example-card">
+           
+            <img mat-card-image src="{{data.ipath}}" alt="Photo of a Shiba Inu" height="250">
+            
+            <div class="middle">
+                <button mat-button (click)="sleepMusic(data)">{{data.name}}</button>
+              </div>
+          </mat-card>
+          
+    </div>
+</div>
+
+
+    
+</div>
+
+<app-footer2></app-footer2>

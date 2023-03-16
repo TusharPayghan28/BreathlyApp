@@ -1,0 +1,137 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 400px;
+    background-color: #125673;
+    color: white;
+}
+
+
+.back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:50px ;
+  height: 50px;
+  border: 2px solid;
+  border-color: black;
+  margin-right: 300px;
+  border-radius: 100px;
+  border-color: white;
+}
+
+#back{
+  color: white;
+
+}
+
+
+#button{
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+}
+
+#input{
+    border-radius: 100px;
+ 
+}
+
+
+
+.container .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+.container .row .image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .image img{
+    width: 80px;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .container .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  
+  
+  .container .heading a{
+   border-radius: 100px;
+   background-color: rgb(56, 56, 185);
+   color: white;
+  }
+  
+   .container .para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    background-color: rgb(170, 190, 207);
+    width: 55%;
+    border-radius: 100px;
+    height: 40px;
+  }
+
+  asl-google-signin-button{
+    margin-top: 30px;
+  }
+
+  #span{
+    margin-top: 30px;
+    font-size: 15px;
+    color: black;
+  }
+
+  .container .para a{
+    border-radius: 100px;
+    background-color: rgb(170, 190, 207);
+    width: 230px;
+   }
+
+   .para a span{
+    margin-bottom: 70px;
+   }
+
+   #h5{
+    color: rgb(171, 183, 194);
+    font-size: 15px;
+    margin-top: 20px;
+   }
+
+   .wel{
+    margin: 10px;
+   }
+
+   .wel h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+   #error{
+    margin-bottom: 20px;
+    color: red;
+   }
+
+   mat-icon{
+    color: black;
+   }
+
+  
+  

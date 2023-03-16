@@ -1,0 +1,205 @@
+<app-header></app-header>
+
+<div class="row" id="cont">
+  <div class="header">
+    <h1 class="text-center">{{whish}}, <strong>{{data}}</strong></h1>
+   
+  </div>
+  <div class="date">
+    <button mat-stroked-button color="primary">{{myDate | date:'EEEE, d MMMM'}}</button>
+  </div>
+  <div class="hour">
+    <button mat-stroked-button color="primary">{{myDate | date:'shortTime'}}</button>
+  </div>
+  <div class="image">
+    <img src="../../assets/images/breath.png" alt="" height="300">
+  </div>
+</div>
+
+<!-- 
+<app-body></app-body> -->
+
+<div class="hed">
+  
+  <h2 class="text-start"> <mat-icon id="flor">local_florist</mat-icon> Meditation</h2>
+</div>
+<hr>
+
+
+<div class="row" id="step2">
+  <div class="col-md-4" id="col4" *ngFor="let data of img">
+    <!-- <a routerLink="/song" id="a"> -->
+    <mat-card class="example-card" (click)="openMusic(data)">
+      
+      <img mat-card-image src="{{data.ipath}}" alt="Photo of a Shiba Inu" height="200">
+      <mat-card-content>
+        <mat-card-title>{{data.name}}</mat-card-title>
+        <mat-card-subtitle>William Parker</mat-card-subtitle>
+      </mat-card-content>
+      <!-- <button mat-raised-button color="primary" (click)="openMusic(data)"><mat-icon>music_note</mat-icon>OPEN MUSIC</button> -->
+    </mat-card>
+    
+  <!-- </a> -->
+  </div>
+  <!-- <div class="col-md-4" id="col4">
+    <a routerLink="/song" id="a">
+    <mat-card class="example-card">
+      
+      <img mat-card-image src="../../assets/images/yoga.jpg" alt="Photo of a Shiba Inu" height="200">
+      <mat-card-content>
+        <mat-card-title>Relaxation</mat-card-title>
+        <mat-card-subtitle>William Parker</mat-card-subtitle>
+      </mat-card-content>
+     
+    </mat-card>
+  </a>
+  </div>
+  <div class="col-md-4" id="col4">
+    <a routerLink="/song" id="a">
+    <mat-card class="example-card">
+      
+      <img mat-card-image src="../../assets/images/isto.jpg" alt="Photo of a Shiba Inu" height="200">
+      <mat-card-content>
+        <mat-card-title>Mental Health</mat-card-title>
+        <mat-card-subtitle>William Parker</mat-card-subtitle>
+      </mat-card-content>
+     
+    </mat-card>
+  </a>
+  </div> -->
+</div>
+<!-- 
+
+<div class="row" id="step2">
+  <div class="col-md-4" id="col4">
+    <a routerLink="/song" id="a">
+    <mat-card class="example-card">
+      
+      <img mat-card-image src="../../assets/images/woman.jpg" alt="Photo of a Shiba Inu" height="200">
+      <mat-card-content>
+        <mat-card-title>Nature Sound</mat-card-title>
+        <mat-card-subtitle>William Parker</mat-card-subtitle>
+      </mat-card-content>
+     
+    </mat-card>
+    </a>
+  </div>
+  <div class="col-md-4" id="col4">
+    <a routerLink="/song" id="a">
+    <mat-card class="example-card">
+      
+      <img mat-card-image src="../../assets/images/fantasy.jpg" alt="Photo of a Shiba Inu" height="200">
+      <mat-card-content>
+        <mat-card-title>Heaven</mat-card-title>
+        <mat-card-subtitle>William Parker</mat-card-subtitle>
+      </mat-card-content>
+     
+    </mat-card>
+    </a>
+  </div>
+  <div class="col-md-4" id="col4">
+    <a routerLink="/song" id="a">
+    <mat-card class="example-card">
+      
+      <img mat-card-image src="../../assets/images/buddhism.jpg" alt="Photo of a Shiba Inu" height="200">
+      <mat-card-content>
+        <mat-card-title>breathing</mat-card-title>
+        <mat-card-subtitle>William Parker</mat-card-subtitle>
+      </mat-card-content>
+     
+    </mat-card>
+    </a>
+  </div>
+</div>
+
+
+
+<div class="row" id="step2">
+  <div class="col-md-4" id="col4">
+    <a routerLink="/song" id="a">
+    <mat-card class="example-card">
+      
+      <img mat-card-image src="../../assets/images/backlit.jpg" alt="Photo of a Shiba Inu" height="200">
+      <mat-card-content>
+        <mat-card-title>Sky Walk</mat-card-title>
+        <mat-card-subtitle>William Parker</mat-card-subtitle>
+      </mat-card-content>
+     
+    </mat-card>
+    </a>
+  </div>
+  <div class="col-md-4" id="col4">
+    <a routerLink="/song" id="a">
+    <mat-card class="example-card">
+      
+      <img mat-card-image src="../../assets/images/young.jpg" alt="Photo of a Shiba Inu" height="200">
+      <mat-card-content>
+        <mat-card-title>Mountains</mat-card-title>
+        <mat-card-subtitle>William Parker</mat-card-subtitle>
+      </mat-card-content>
+     
+    </mat-card>
+    </a>
+  </div> 
+  <div class="col-md-4" id="col4">
+    <a routerLink="/song" id="a">
+    <mat-card class="example-card">
+      
+      <img mat-card-image src="../../assets/images/monks.jpg" alt="Photo of a Shiba Inu" height="200">
+      <mat-card-content>
+        <mat-card-title>Mind Theropy</mat-card-title>
+        <mat-card-subtitle>William Parker</mat-card-subtitle>
+      </mat-card-content>
+     
+    </mat-card>
+    </a>
+  </div>
+</div>
+
+
+
+
+<div class="row" id="step2">
+  <div class="col-md-4" id="col4">
+    <a routerLink="/song" id="a">
+    <mat-card class="example-card">
+      
+      <img mat-card-image src="../../assets/images/waterfalls.jpg" alt="Photo of a Shiba Inu" height="200">
+      <mat-card-content>
+        <mat-card-title>Waterfall</mat-card-title>
+        <mat-card-subtitle>William Parker</mat-card-subtitle>
+      </mat-card-content>
+     
+    </mat-card>
+    </a>
+  </div>
+  <div class="col-md-4" id="col4">
+    <a routerLink="/song" id="a">
+    <mat-card class="example-card">
+      
+      <img mat-card-image src="../../assets/images/stones.jpg" alt="Photo of a Shiba Inu" height="200">
+      <mat-card-content>
+        <mat-card-title>Stone</mat-card-title>
+        <mat-card-subtitle>William Parker</mat-card-subtitle>
+      </mat-card-content>
+     
+    </mat-card>
+    </a>
+  </div>
+  <div class="col-md-4" id="col4">
+    <a routerLink="/song" id="a">
+    <mat-card class="example-card">
+      
+      <img mat-card-image src="../../assets/images/avenue.jpg" alt="Photo of a Shiba Inu" height="200">
+      <mat-card-content>
+        <mat-card-title>Forest</mat-card-title>
+        <mat-card-subtitle>William Parker</mat-card-subtitle>
+      </mat-card-content>
+     
+    </mat-card>
+    </a>
+  </div>
+</div> -->
+
+<app-footer></app-footer>
+<app-footer2></app-footer2>

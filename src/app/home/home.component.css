@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  #cont{
+   background-color: rgb(198, 233, 233);
+   padding-bottom: 30px;
+   width: 100%;
+  }
+
+  .header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header h1{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    animation:forwards;
+  }
+
+  .date{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .date  button{
+    border-color: rgb(38, 0, 255);
+  }
+
+  .hour{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hour button{
+    border-color: rgb(38, 0, 255);
+  }
+
+  .image{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image img{
+    border-radius: 100%;
+    animation:alternate;
+    background-color: rgb(130, 194, 194);
+    border: solid 1px rgb(73, 62, 108);
+    border-radius: 50%;
+    transition: width 2s, height 2s, transform 2s;
+  }
+
+  .image img:hover{
+    transform: scaleX(0.6);
+  }
+
+
+  mat-grid-tile {
+    background: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hed{
+    margin: 20px;
+  }
+  .hed h2{
+    font-size: 30px;
+    color: blue;
+  }
+
+  .example-card {
+    max-width: 400px;
+  }
+  
+  /* .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  } */
+  
+  
+ #step2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+ }
+
+ #step2 mat-card-title{
+   padding: 10px;
+   font-size: 20px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif Times, serif;
+ }
+
+ #step2 mat-card-subtitle{
+  padding-left: 10px;
+}
+
+#col4{
+  margin-bottom: 20px;
+  justify-content: center;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+#col4:hover{
+   /* opacity: 0.8; */
+}
+
+#a:link {
+      text-decoration: none;
+}
+#a{
+  color: black;
+}
+
+mat-card{
+  box-shadow: 0 1px 10px 1px #888;
+}
+
+@media screen and (max-width: 480px) {
+  .header h1{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width:780px){
+  #step2{
+    display: grid;
+    grid-template-columns: auto auto ;
+  }
+}
+
+
+@media screen and (max-width:730px){
+  #step2{
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+
+mat-card:hover{
+  opacity: 0.5;
+}

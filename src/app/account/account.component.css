@@ -1,0 +1,38 @@
+.heading h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#icon{
+    color: rgb(0, 4, 255);
+}
+
+#name{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#icon2{
+    font-size: 20px;
+}
+
+#button{
+    border-radius: 100px;
+    height: 30px;
+}
+
+.container{
+    height: 100%;
+}
+
+.row{
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:780px) {
+    .row{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+}

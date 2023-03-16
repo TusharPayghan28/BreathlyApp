@@ -1,0 +1,702 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "name": "Kishor",
+      "email": "kishor@gmail.com",
+      "password": "kishor@123.com",
+      "id": 2
+    },
+    {
+      "name": "Ankush",
+      "email": "ankush@gmail.com",
+      "password": "Ankush@123",
+      "id": 3
+    },
+    {
+      "name": "Tushar",
+      "email": "tushar@gmail.com",
+      "password": "Tushar@123",
+      "id": 4
+    },
+    {
+      "name": "Ganesh",
+      "email": "ganesh@gmail.com",
+      "password": "Ganesh@123",
+      "id": 5
+    },
+    {
+      "name": "Gajanan",
+      "email": "gananan@gmail.com",
+      "password": "Gajanan@123",
+      "id": 6
+    },
+    {
+      "name": "Shubham",
+      "email": "shubham@gmail.com",
+      "password": "Shubham@123",
+      "id": 7
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 8
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 9
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 10
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 11
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 12
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 13
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 14
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 15
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 71
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 72
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 73
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 74
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 75
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 76
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 77
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 78
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 79
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 80
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 81
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 82
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 83
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 84
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 85
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 86
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 87
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 88
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 89
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 90
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 91
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 92
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 93
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 94
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 95
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 96
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 97
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 98
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 99
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 100
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 101
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 102
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 103
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 104
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 105
+    },
+    {
+      "id": 106
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 107
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 108
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 109
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 110
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 111
+    },
+    {
+      "name": "Tushar Payghan",
+      "email": "tusharpayghan28@gmail.com",
+      "password": " ",
+      "id": 112
+    }
+  ],
+  "song": [
+    {
+      "id": 1,
+      "name": "Daily Meditation",
+      "ipath": "https://cdn.pixabay.com/photo/2016/11/08/05/16/boy-1807518__340.jpg",
+      "song": [
+        "../../assets/music/Daily-Motivation/Daily-Motivation1.mp3",
+        "../../assets/music/Daily-Motivation/Daily-Motivation2.mp3",
+        "../../assets/music/Daily-Motivation/Daily-Motivation3.mp3",
+        "../../assets/music/Daily-Motivation/Daily-Motivation4.mp3"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Relaxation",
+      "ipath": "../../assets/images/yoga.jpg",
+      "song": [
+        "../../assets/music/Relaxation/Calm.mp3",
+        "../../assets/music/Relaxation/calming-sounds-124055.mp3",
+        "../../assets/music/Relaxation/endless-by-prabajithk-118998.mp3",
+        "../../assets/music/Relaxation/healing-music-121007.mp3",
+        "../../assets/music/Relaxation/meditation-sounds-122698.mp3",
+        "../../assets/music/Relaxation/please-calm-my-mind-125566 (1).mp3",
+        "../../assets/music/Relaxation/Relaxation.mp3",
+        "../../assets/music/Relaxation/Relaxation.ogg",
+        "../../assets/music/Relaxation/relax-chill-out-music-for-landscapes-under-water-animals-forests-8105.mp3",
+        "../../assets/music/Relaxation/relaxing-music-vol14-133462.mp3",
+        "../../assets/music/Relaxation/soothing.mp3",
+        "../../assets/music/Relaxation/starlight.mp3"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Mental Health",
+      "ipath": "../../assets/images/isto.jpg",
+      "song": [
+        "../../assets/music/Mental-health/Mental-health.mp3",
+        "../../assets/music/Mental-health/Mental-health1.mp3",
+        "../../assets/music/Mental-health/Mental-health3.mp3",
+        "../../assets/music/Mental-health/Mental-health4.mp3",
+        "../../assets/music/Mental-health/Mental-health5.mp3"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Nature Sound",
+      "ipath": "../../assets/images/woman.jpg",
+      "song": [
+        "../../assets/music/Nature-sound/Nature1.mp3",
+        "../../assets/music/Nature-sound/Nature2.mp3",
+        "../../assets/music/Nature-sound/Nature3.mp3",
+        "../../assets/music/Nature-sound/Nature4.mp3",
+        "../../assets/music/Nature-sound/Nature5.mp3",
+        "../../assets/music/Nature-sound/Nature6.mp3"
+      ]
+    },
+    {
+      "id": 5,
+      "name": " Heaven",
+      "ipath": "../../assets/images/fantasy.jpg",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Breathing",
+      "ipath": "../../assets/images/buddhism.jpg",
+      "song": [
+        "../../assets/music/Breathing/Breathing1.mp3",
+        "../../assets/music/Breathing/Breathing2.mp3",
+        "../../assets/music/Breathing/Breathing3.mp3",
+        "../../assets/music/Breathing/Breathing4.mp3"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Sky Walk",
+      "ipath": "../../assets/images/backlit.jpg",
+      "song": [
+        "../../assets/music/Sky-walk/Sky-walk1.mp3",
+        "../../assets/music/Sky-walk/Sky-walk2.mp3",
+        "../../assets/music/Sky-walk/Sky-walk3.mp3",
+        "../../assets/music/Sky-walk/Sky-walk4.mp3"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Mountains",
+      "ipath": "../../assets/images/young.jpg",
+      "song": [
+        "../../assets/music/Mountains/Mountain1.mp3",
+        "../../assets/music/Mountains/Mountain2.mp3",
+        "../../assets/music/Mountains/Mountain3.mp3",
+        "../../assets/music/Mountains/Mountain4.mp3"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Mind Theropy",
+      "ipath": "../../assets/images/monks.jpg",
+      "song": [
+        "../../assets/music/Mountains/Mountain1.mp3",
+        "../../assets/music/Mountains/Mountain2.mp3",
+        "../../assets/music/Mountains/Mountain3.mp3",
+        "../../assets/music/Mountains/Mountain4.mp3"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Waterfall",
+      "ipath": "../../assets/images/waterfalls.jpg",
+      "song": [
+        "../../assets/music/Melodies/Waterfall.mp3",
+        "../../assets/music/Melodies/Tornado.mp3",
+        "../../assets/music/Melodies/Rain.mp3",
+        "../../assets/music/Melodies/Ocean.mp3"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Stone",
+      "ipath": "../../assets/images/stones.jpg",
+      "song": [
+        "../../assets/music/Melodies/Snow.mp3",
+        "../../assets/music/Melodies/Relax.mp3",
+        "../../assets/music/Melodies/Sand.mp3",
+        "../../assets/music/Melodies/Wind.mp3"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Forest",
+      "ipath": "../../assets/images/avenue.jpg",
+      "song": [
+        "../../assets/music/Melodies/Forest.mp3",
+        "../../assets/music/Melodies/Birds.mp3",
+        "../../assets/music/Melodies/Night.mp3",
+        "../../assets/music/Melodies/Nature.mp3",
+        "../../assets/music/Melodies/Hazzard.mp3"
+      ]
+    }
+  ],
+  "sleep": [
+    {
+      "id": 1,
+      "name": "Peaceful Sleep",
+      "ipath": "../../assets/images/photo2.avif",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Gratitude Body Scan for Sleep",
+      "ipath": "../../assets/images/photo3.avif",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Journey Into Sleep",
+      "ipath": "../../assets/images/photo4.avif",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Unwind Into Sleep",
+      "ipath": "../../assets/images/photo5.avif",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Night Time Gratitude",
+      "ipath": "../../assets/images/photo6.avif",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "7 Days of Sleep",
+      "ipath": "../../assets/images/photo7.avif",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Soothing the Body for Rest",
+      "ipath": "../../assets/images/tiger.jpg",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Bedtime Body Scan",
+      "ipath": "../../assets/images/photo9.avif",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Connecting With the Night",
+      "ipath": "../../assets/images/photo10.avif",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Softly Back to Sleep",
+      "ipath": "../../assets/images/photo11.avif",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Quieting the Mind and Body",
+      "ipath": "../../assets/images/photo12.avif",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Deep Sleep",
+      "ipath": "../../assets/images/father.jpg",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    }
+  ],
+  "melodies": [
+    {
+      "id": 1,
+      "name": "Birds",
+      "ipath": "../../assets/images/birds.jpeg",
+      "song": "../../assets/music/Melodies/Birds.mp3"
+    },
+    {
+      "id": 2,
+      "name": "Forest",
+      "ipath": "../../assets/images/forest.jpg",
+      "song": "../../assets/music/Melodies/Forest.mp3"
+    },
+    {
+      "id": 3,
+      "name": "Hazzard",
+      "ipath": "../../assets/images/hazzred.jpeg",
+      "song": "../../assets/music/Melodies/Hazzard.mp3"
+    },
+    {
+      "id": 4,
+      "name": "Lake",
+      "ipath": "../../assets/images/Lake.jpeg",
+      "song": "../../assets/music/Melodies/Lake.mp3"
+    },
+    {
+      "id": 5,
+      "name": "Nature",
+      "ipath": "../../assets/images/Nature.jpeg",
+      "song": "../../assets/music/Melodies/Nature.mp3"
+    },
+    {
+      "id": 6,
+      "name": "Night",
+      "ipath": "../../assets/images/Night.jpeg",
+      "song": "../../assets/music/Melodies/Night.mp3"
+    },
+    {
+      "id": 7,
+      "name": "Ocean",
+      "ipath": "../../assets/images/Ocean.jpg",
+      "song": "../../assets/music/Melodies/Ocean.mp3"
+    },
+    {
+      "id": 8,
+      "name": "Rain",
+      "ipath": "../../assets/images/Rain.webp",
+      "song": "../../assets/music/Melodies/Rain.mp3"
+    },
+    {
+      "id": 9,
+      "name": "Relax",
+      "ipath": "../../assets/images/Relax.jpeg",
+      "song": "../../assets/music/Melodies/Relax.mp3"
+    },
+    {
+      "id": 10,
+      "name": "Sand",
+      "ipath": "../../assets/images/sand.jpeg",
+      "song": "../../assets/music/Melodies/Sand.mp3"
+    },
+    {
+      "id": 11,
+      "name": "Tornado",
+      "ipath": "../../assets/images/Tornado.jpeg",
+      "song": "../../assets/music/Melodies/Tornado.mp3"
+    },
+    {
+      "id": 12,
+      "name": "Waterfall",
+      "ipath": "../../assets/images/Waterfall.jpeg",
+      "song": "../../assets/music/Melodies/Waterfall.mp3"
+    },
+    {
+      "id": 13,
+      "name": "Wind",
+      "ipath": "../../assets/images/Wind.jpeg",
+      "song": "../../assets/music/Melodies/Wind.mp3"
+    }
+  ]
+}

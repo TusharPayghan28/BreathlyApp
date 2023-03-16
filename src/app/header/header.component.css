@@ -1,0 +1,17 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  
+  #flor{
+    color: rgb(253, 216, 49);
+  }
+
+  
+  #icon{
+    color: blue;
+  }
+
+  a{
+    text-decoration: none;
+  }

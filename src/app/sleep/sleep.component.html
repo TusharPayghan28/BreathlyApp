@@ -1,0 +1,26 @@
+<app-header></app-header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" (click)="openMusic(item)" *ngFor="let item of sleep">
+
+            <mat-card class="example-card">
+               
+                <img id="img" mat-card-image src="{{item.ipath}}" alt="Photo of a Shiba Inu">
+                <!-- <div class="middle">
+                    <button mat-button color="warn" class="text" (click)="openMusic(item)"> <mat-icon id="icon4">library_music</mat-icon></button>
+                  </div> -->
+                <mat-card-content>
+                    <mat-card-title>{{item.name}}</mat-card-title>
+                  <mat-card-subtitle>William Parker</mat-card-subtitle>
+                </mat-card-content>
+               
+              </mat-card>
+              
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>
+
+<app-footer2></app-footer2>

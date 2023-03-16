@@ -1,0 +1,32 @@
+
+    <app-header2></app-header2>
+    <div class="row">
+        <!-- <div class="col-md-4" id="col6"> -->
+        <div class="heading">
+        <h1><mat-icon>music_note</mat-icon> {{playList.name}}</h1>
+        </div>
+     
+        <div class="image">
+            <img src="https://i.gifer.com/3o7G.gif" alt="" id="img">
+        </div>
+        
+        <div class="para">
+            <h1>{{playList.name}}</h1>
+            <p>William Parker</p>
+        </div>
+    
+        <div class="song" *ngFor="let song of playList.song">
+            <audio controls src="{{song}}"></audio>
+            <!-- <audio controls src="../../assets/music/Breathing/Breathing1.mp3"></audio>
+            <audio controls src="../../assets/music/Breathing/Breathing1.mp3"></audio> -->
+        </div>
+        <div class="icon">
+            <mat-icon>favorite_border</mat-icon>
+            <mat-icon>playlist_add</mat-icon>
+            <mat-icon>alarm</mat-icon>
+            <mat-icon>more_vert</mat-icon>
+        </div>
+        <!-- </div> -->
+    </div> 
+ 
+    <app-footer2></app-footer2>

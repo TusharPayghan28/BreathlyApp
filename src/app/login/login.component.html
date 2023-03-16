@@ -1,0 +1,77 @@
+
+
+<div class="container">
+    <div class="back">
+        <mat-icon routerLink="/" id="back">arrow_back</mat-icon>
+      </div>
+    <div class="row">
+
+       
+   
+        <div class="image">
+        <img src="../../assets/images/white.png" alt="">
+        </div>
+        <div class="wel">
+            <h1 class="text-center text-uppercase">Welcome Back !!</h1>
+        </div>
+        <div class="heading">
+         <a href="" color="primary" class="btn">
+          <img src="../../assets/images/facebbok.png" alt="" height="30">
+          <span>Continue with Facebook</span>
+         </a>
+        </div>
+        <!-- <div class="para">
+          <button class="btn btn-light" *ngIf="!user">
+              <img src="../../assets/images/google.png" alt="" height="30">
+              <span>  Continue with Google</span>
+          </button>
+        </div>  -->
+
+        <div class="para">
+       <asl-google-signin-button (click)="googleLogin()" *ngIf="!user"></asl-google-signin-button>
+       <span id="span">  Continue with Google</span>
+         </div>
+
+  
+    </div>
+
+
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+   <h5 class="text-uppercase text-center" id="h5">or log in with Email</h5>
+        
+<div>
+    <mat-form-field appearance="outline">
+      <mat-label>Enter Email Address</mat-label>
+      <input matInput placeholder="Enter Email Address" formControlName="email">
+      <mat-icon matSuffix>email</mat-icon>    
+    </mat-form-field>
+
+    <div id="error" *ngIf="loginForm.controls['email'].errors && loginForm.controls['email'].touched">
+        <small *ngIf="email?.hasError('required')" class="small">Email is required</small>
+        <small *ngIf="email?.hasError('pattern')" class="small">Email is Incorrect</small>
+      </div>
+</div>
+<div>
+    <mat-form-field appearance="outline">
+      <input matInput placeholder="**********" [type]="hide ? 'password' : 'text'" formControlName="password">
+      <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+      </button>
+  
+    </mat-form-field>
+
+    <div id="error" *ngIf="loginForm.controls['password'].errors && loginForm.controls['password'].touched">
+        <small *ngIf="pass?.hasError('required')" class="small">Password is required</small>
+        <small *ngIf="pass?.hasError('pattern')" class="small">Password is Incorrect</small>
+      </div>
+</div>   
+      <button mat-raised-button color="primary" id="button" [disabled]="loginForm.invalid">LOG IN</button>  
+      <p class="text-center m-2">Forget Password</p>
+
+      <p class="text-center m-4">New User? <strong><a routerLink="/signin">Sign Up</a></strong></p>
+
+      
+    </form>
+
+
+</div>

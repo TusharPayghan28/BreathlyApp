@@ -1,0 +1,33 @@
+.mat-tab-group {
+    margin-bottom: 48px;
+    margin-top: 50px;
+  }
+
+  .container{
+    height: 100%;
+  }
+
+  .heading h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+  
+  }
+
+  strong{
+    font-size: 30px;
+    color: rgb(52, 182, 52);
+  }
+
+  span{
+    font-size: 20px;
+    color:  rgb(52, 182, 52);
+  }
+
+  .community{
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  #icon{
+    color: blue;
+  }

@@ -1,0 +1,20 @@
+<app-header></app-header>
+<div class="container">
+   <div class="row">
+
+    <div class="col-md-2" *ngFor="let item of item">
+        
+        <mat-card class="example-card" style="background-image: url('{{item.ipath}}'); background-size: cover; background-repeat: no-repeat;">
+          <div class="audio">
+           <audio controls src={{item.song}}></audio>
+          </div>
+          </mat-card>
+
+    </div>
+
+
+   </div>
+</div>
+<app-footer></app-footer>
+
+<app-footer2></app-footer2>

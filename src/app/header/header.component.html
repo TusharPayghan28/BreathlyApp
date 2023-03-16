@@ -1,0 +1,41 @@
+<p>
+    <mat-toolbar color="primary">
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon id="flor"> local_florist</mat-icon>
+      </button>
+      <span>Breathly</span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" routerLink="/image">
+        <mat-icon>photo_library</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon matBadge="1" matBadgeColor="warn">notifications</mat-icon>
+      </button>
+      <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+        <mat-icon>account_circle</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <a routerLink="/account">
+        <button mat-menu-item>
+          <mat-icon id="icon">account_circle</mat-icon>
+          <span>Profile</span>
+        </button>
+      </a>
+      <a href="">
+        <button mat-menu-item>
+          <mat-icon id="icon">account_balance_circle</mat-icon>
+          <span>My Account</span>
+        </button>
+      </a>
+      <!-- <a routerLink="/"> -->
+        <button mat-menu-item (click)="logout()">
+          <mat-icon id="icon">logout_circle</mat-icon>
+          <span>Logout</span>
+        </button>
+      <!-- </a> -->
+      </mat-menu>
+    </mat-toolbar>
+  </p>

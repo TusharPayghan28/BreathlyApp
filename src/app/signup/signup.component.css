@@ -1,0 +1,137 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    /* margin: 50px; */
+    /* height: 60%; */
+    margin-top: 10px;
+    background-color: #125673;
+    color: white;
+  }
+  
+  .container .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-style:groove;
+    /* width: 500px;
+    height: 800px; */
+  }
+  
+  .container .row .image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container .row .header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .image img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container .heading h1{
+    padding-top: 20px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .container .heading p{
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+  }
+  
+  /*
+  .container .para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+   */
+  
+  .container .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container .button button{
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgb(84, 84, 192);
+    color: white;
+    border-style: none;
+  }
+  
+  
+  
+  
+  .container .footer{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  @media screen and (max-width:1000px) {
+    .container{
+      width: 34%;
+    }
+  }
+  
+  @media screen and (max-width:800px) {
+    .container{
+      width: 40%;
+    }
+  }
+  
+  @media screen and (max-width:700px) {
+    .container{
+      width: 45%;
+      margin-top: 50px;
+    }
+  }
+  @media screen and (max-width:600px) {
+    .container{
+      width: 50%;
+      margin-top: 50px;
+    }
+  }
+  
+  
+  @media screen and (max-width:500px) {
+    .container{
+      width: 60%;
+      margin-top: 50px;
+    }
+  }
+  
+  @media screen and (max-width:400px) {
+    .container{
+      width: 70%;
+      margin-top: 50px;
+    }
+  }
+  @media screen and (max-width:300px) {
+    .container{
+      margin-top: 50px;
+      width: 80%;
+    }
+  }
+  
+ 

@@ -1,0 +1,158 @@
+.row{
+  background-image: url("../../assets/images/mack.jpg");
+  /* height: 100%;
+  margin-bottom: 150px; */
+}
+
+  /* #col6{
+  background-image: url("https://i.gifer.com/THn0.gif");
+  background-repeat: no-repeat;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h1{
+    font-size: 30px;
+    color: rgb(255, 251, 0);
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin-top: 40px;
+    margin-bottom: 30px
+}
+
+#img{
+    border-radius: 100%;
+    height: 170%;
+    width: 15%;
+}
+
+#img:hover{
+    animation: roll 3s infinite;
+    transform: rotate(30deg);
+}
+
+@keyframes roll {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+.para{
+   text-align: center;
+   margin-top: 20px;
+}
+
+
+
+.song{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.song audio{
+    margin-top: 20px;
+    
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon mat-icon{
+    padding: 35px;
+    color: rgb(59, 4, 4);
+}
+
+@media screen and (max-width: 480px) {
+    .song audio{
+       width: 80%;
+    }
+
+    .icon mat-icon{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-left: 20px; */
+     }
+  }
+
+   
+@media screen and (max-width: 490px) {
+
+  #img{
+     border-radius: 100%;
+     height: 170%;
+     width: 75%;
+ }
+ 
+}
+
+  
+@media screen and (max-width: 1080px) {
+
+     #img{
+        border-radius: 100%;
+        height: 170%;
+        width: 25%;
+    }
+    
+    .row{
+      height: 100%;
+    }
+  }
+
+   
+@media screen and (max-width: 780px) {
+
+    #img{
+       border-radius: 100%;
+       height: 170%;
+        width: 25%;
+   }
+   
+ }
+
+   
+@media screen and (max-width: 680px) {
+
+  #img{
+     border-radius: 100%;
+     height: 170%;
+      width: 35%;
+ }
+ 
+}
+
+ 
+@media screen and (max-width: 380px) {
+     #img{
+        border-radius: 100%;
+        height: 170%;
+        width: 55%;
+    }
+    
+  }
